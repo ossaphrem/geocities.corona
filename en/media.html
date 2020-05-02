@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-image: url('../img/background.png');}
+
+a:link {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 50px;
+  padding: 5px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+<div id="left">
+[<a href="../cn/meiti.html">CN</a>]
+</div>
+
+<center><h1 style="color:gold;">Corona-chan: Patron Saint of COVID-19</h1></center>
+
+<div class="grid-container">
+  <div class="item2">
+  <p><a href="index.html">Home</a></p>
+  <p><a href="history.html">History</a></p>
+  <p><a href="media.html">Media</a></p>
+  <p><a href="about.html">About</a></p>
+  </div>
+  
+  <div class="item3">
+	<center><h3 style="color:gold">Images</h3></center>
+	<center><img alt="Art by DeviantArt user ZeroRespect-BOT" title="Art by DeviantArt user ZeroRespect-BOT" src="../img/coronachanGallery2.png"></center>
+	<center><b style="color:gold">(more coming soon)</b><center>
+  </div>  
+  
+  <div class="item4"><center><h3 style="color:gold">Videos</h3></center>
+	<center><iframe width="532" height="399"
+	src="https://www.youtube.com/embed/iBoojBTEPaI">
+	</iframe></center>
+	<center><b style="color:gold">(more coming soon)</b></center>
+  </div>
+  
+  <div class="item5"><p style="color:gold;font-size:10px">© 1999,2020 Geocities. All rights reserved</p></div>
+</div>
+
+</body>
+</html>

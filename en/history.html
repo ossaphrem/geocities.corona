@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-image: url('../img/background.png');}
+
+a:link {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 50px;
+  padding: 5px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+<div id="left">
+[<a href="../cn/lishi.html">CN</a>]
+</div>
+
+<center><h1 style="color:gold;">Corona-chan: Patron Saint of COVID-19</h1></center>
+
+<div class="grid-container">
+  <div class="item2">
+  <p><a href="index.html">Home</a></p>
+  <p><a href="history.html">History</a></p>
+  <p><a href="media.html">Media</a></p>
+  <p><a href="about.html">About</a></p>
+  </div>
+  
+  <div class="item3">
+  <center><p style="color:gold;font-size:20px">On <b>January 17th, 2020</b>, an anonymous <b>4chan</b> user coined the catchphrase <b>"Corona-chan"</b> in a <b>/pol/</b> board thread, with more users using the phrase to refer to the <b>Wuhan province Novel Coronavirus</b> in the following days. On <b>January 21st</b>, an anonymous <b>4chan</b> user posted a drawing of a young <b>Asian</b> woman dressed in a <b>red qipao dress</b>, holding a <b>Chinese flag</b> and a bottle of <b>Corona</b> beer in her hands, to the <b>/pol/</b> board (post and image shown below.). The thread accumulated <b>over 300 replies</b>. Eventually, more anonymous users posted their versions of the character in the thread.</p></center>
+  <center><p style="color:gold;font-size:20px">In the following days, the character received spread outside of <b>4chan</b>, with the artworks being posted to <a href="https://twitter.com/search?q=coronachan&src=typed_query"><b>Twitter</b></a> and other websites. On <b>January 22nd</b>, content creator <b>MR. OBVIOUS</b> uploaded a <a href="https://www.youtube.com/embed/W7xMzGxzRq0">video</a> to his <b>YouTube</b> channel about the character which accumulated <b>over 22,700 views within 24 hours</b>.</p></center>
+  </div>  
+  
+  <div class="item4"><center><img alt="Source: KnowYourMeme" title="Source: KnowYourMeme" src="../img/coronachanHistory1.jpg"></center></div>
+  
+  <div class="item5"><p style="color:gold;font-size:10px">© 1999,2020 Geocities. All rights reserved</p></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-image: url('../img/background.png');}
+
+a:link {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ol {
+
+color: gold;
+font-size:20px;
+
+}
+
+ul {
+
+color: gold;
+font-size:20px;
+text-alight:left;
+
+}
+
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 50px;
+  padding: 5px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+<div id="left">
+[<a href="../cn/guanyu.html">CN</a>]
+</div>
+
+<center><h1 style="color:gold;">Corona-chan: Patron Saint of COVID-19</h1></center>
+
+<div class="grid-container">
+  <div class="item2">
+  <p><a href="index.html">Home</a></p>
+  <p><a href="history.html">History</a></p>
+  <p><a href="media.html">Media</a></p>
+  <p><a href="about.html">About</a></p>
+  </div>
+  
+  <div class="item3"><center><p style="color:gold;font-size:20px;"><b>Contact</b></p></center>
+<ul>
+<li><p style="text-align:left;"><a href="mailto:stithb@cravencc.edu">Email</a></li>
+<li><p style="text-align:left;"><a href="fax:+358.555.1234567">Fax</a></li>
+</ul>
+<br>
+<center><p style="color:gold;font-size:20px;"><b>Sources</b></p>
+<ul>
+<li><a href="https://knowyourmeme.com/memes/corona-chan">KnowYourMeme.com</a></li>
+</ul>
+  </div>  
+  
+  <div class="item4"><center><p style="color:gold;font-size:20px;"><b>Reasons</b></p>
+<ol>
+<li>I wanted to have a little fun with the final. This layout style is reminisce of late 90s/early 2000s websites, and I wanted to pick a topic that matched.</li>
+<br>
+<li>I wanted to showcase a lighter side of current world events. Things are tough for countless people around the world, but we all find different ways to cope. Some through the artistic personification of a global pandemic.</li>
+<br>
+<li>I wanted to inform and educate visitors on a ridiculous topic. It's safe to say some of you may never have heard of this if you hadn't visited this website. You're welcome.</li>
+</ol> 
+</div>
+  
+  <div class="item5"><center><h3 style="color:gold">"Never regret anything that made you smile."  -Mark Twain</h3></center>
+  <p style="color:gold;font-size:10px">© 1999,2020 Geocities. All rights reserved</p></div>
+</div>
+
+</body>
+</html>
